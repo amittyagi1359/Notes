@@ -1,0 +1,17 @@
+
+
+cd d:
+mkdir Notes
+cd Notes
+git init
+git config-globle user.name Amit Tyagi
+git config -globle user.email amittyagi1359@gmail.com
+git add .
+git status
+git commit -m " First Update"
+git status
+git remote add origin https://github.com/amittyagi1359/Notes.git    (login on Browser copy code--http link for this task)
+git -v
+git push
+git push origin master
+
